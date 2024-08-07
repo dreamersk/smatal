@@ -1,0 +1,43 @@
+
+// colors
+$pri_fnt_clr: #000000;
+$sec_fnt_clr: #ffffff;
+$hed_fnt_Clr: #FF7A00;
+$btn_clr: #FAFF00;
+$pri_bg_clr: #00FFD1;
+$grdnt_bg_clr: linear-gradient(to right, #95FCE5 , #177376);
+$grdnt_bg_clr_inverse: linear-gradient(to right, #177376 , #95FCE5);
+$mission_bg_clr: #FFF0D6;
+$mission_bg_clr2: #FFF9C6;
+$vision_bg_clr: #D8F4F3;
+$testimonial_bg_clr:linear-gradient(to right , #46ACB2, #98FFE6);
+$para_fnt_clr: #454545;
+$mid_title_clr: #444444;
+$btn_hover_clr: #faff0047;
+$foot_bg_clr: #353535;
+$subs_btn_bg: #FBC343;
+$course_box_bg:linear-gradient(to right, #177376 , #95FCE5);
+$course_box_bg_inverse:linear-gradient(to right, #95FCE5 , #177376);
+$shadow_bg: #313131;
+$place_holder_clr: #A6A6A6;
+
+// Fonts
+$pri_fnt_fmly: "Katibeh", serif;
+$jaldi_fnt: "Jaldi", sans-serif;
+$inter_fnt: "Inter", sans-serif;
+$dmSans_fnt: "DM Sans", sans-serif;
+$signika_neg_fnt: "Signika Negative", sans-serif;
+$simonitta_fnt: "Simonetta", serif;
+$vibur_fnt: "Vibur", cursive;
+
+// size
+$hero_title_fnt: clamp(1.5rem, 0.1429rem + 6.7857vw, 6.25rem);
+$para_fnt: clamp(1rem, 0.8571rem + 0.7143vw, 1.5rem);
+$mid_title_fnt: clamp(1.125rem, 0.0179rem + 5.5357vw, 5rem);
+$facilities_title_fnt: clamp(1.125rem, 0.6607rem + 2.3214vw, 2.75rem);
+$testimonial_para_fnt: clamp(1rem, 0.75rem + 1.25vw, 1.875rem);
+$foot_title_fnt: clamp(1.375rem, 0.9643rem + 2.0536vw, 2.8125rem);
+$foot_txt_fnt: clamp(1rem, 0.8929rem + 0.5357vw, 1.375rem);
+$fly_man_title_fnt: clamp(1.25rem, 0.3214rem + 4.6429vw, 4.5rem);
+$btn_fnt: clamp(1.125rem, 0.875rem + 1.25vw, 2rem);
+$course_box_title:clamp(1.25rem, -1.875rem + 10vw, 3.75rem);

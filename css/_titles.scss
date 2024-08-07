@@ -1,0 +1,28 @@
+@import '_variable.scss';
+
+.title {
+    font-family: $pri_fnt_fmly;
+    font-size: $mid_title_fnt;
+    color: $hed_fnt_Clr;
+    margin-bottom: 25px;
+}
+
+.card_title{
+    font-size:$hero_title_fnt;
+    font-family:$jaldi_fnt;
+    font-weight:bold;
+    text-align: center;
+}
+.course_title{
+    font-size:$testimonial_para_fnt;
+    color:$mid_title_clr;
+    font-family:$inter_fnt;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) { 
+    .title {
+        font-size: 50px;
+    }
+}

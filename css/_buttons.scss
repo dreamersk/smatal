@@ -1,0 +1,31 @@
+@import '_variable.scss';
+
+.pri_btn, .scnd_btn, .subs_btn {
+    font-size: $btn_fnt;
+    color: $pri_fnt_clr;
+    background-color: $btn_clr;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 12px;
+    font-family: $signika_neg_fnt;
+    display: inline-block;
+    box-shadow: 0px 8px 10px #0000007a;
+    transition: all .3s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.scnd_btn {
+    background-color: $sec_fnt_clr;
+    &:hover {
+        background-color: $sec_fnt_clr;
+    }
+}
+
+.subs_btn {
+    background: $subs_btn_bg;
+    color: $sec_fnt_clr;
+    padding: 15px 20px;
+    font-size: 18px;
+}

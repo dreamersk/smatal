@@ -1,0 +1,231 @@
+@import "_variable.scss";
+@import "_titles.scss";
+@import "_buttons.scss";
+
+
+.course_detail{
+    width: 100%;
+    height: 700px;
+    background: url('../images/Graphic_Designer.jpg') no-repeat;
+    background-size: cover;
+    .bg_title{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index:1;
+    }
+    .title{
+      color:$sec_fnt_clr;
+      font-size: 120px;
+      text-shadow: 10px 10px #000;
+    }
+  }
+  .graphic_title{
+    padding: 3% 0%;
+    .title{
+      padding-right: 15%;
+      line-height: 4rem;
+    }
+    .course_detail_cnt{
+      display: flex;
+      justify-content: space-between;
+      
+      .overview{
+        width:70%;
+        .card_title{
+          border-radius: 10px;
+          border: 1px solid $pri_fnt_clr;
+          margin-bottom: 30px;
+          font-weight: 500;
+          width: 55%;
+          span{
+            padding:10px;
+            display: inline-block;
+            width: 98%;
+            margin-top: 5px;
+            border-radius: 10px;
+            font-size: $foot_title_fnt;
+          }
+        }
+        .content{margin-bottom:30px;}
+        ul{
+          padding-left: 1.5rem;
+          li{
+            list-style:disc;
+            font-size: clamp(1rem, 0.8571rem + 0.7143vw, 1.5rem);
+            line-height: 2rem;
+            font-family: "DM Sans", sans-serif;
+            padding-bottom: 15px;
+            &:last-child{
+              margin-bottom: 30px;
+            }
+          }
+        }
+      }
+      .tools{
+        display: flex;
+        column-gap: 30px;
+        margin-bottom: 30px;
+        .icon_title{
+          display: flex;
+          align-items: center;
+          column-gap: 10px;
+          margin-bottom: 15px;
+          .content{margin: 0px;}
+        }
+      }
+      .learn_list{
+        display: flex;
+        column-gap: 30px;
+        ul{
+          margin-right: 30px;
+        }
+      }
+      .icon_svg{
+        width: 28%;
+        position:sticky;
+        // img{
+        //   display: block;
+        //   object-fit: cover;
+        //   height: 100%;
+        //   width: 100%;
+        // }
+        .radius_card{
+          background:$pri_bg_clr;
+          padding:10px 15px 15px 15px;
+          border-radius: 20px;
+          width:100%;
+          margin:auto;
+          img{
+            margin: auto;
+            display: block;
+            margin-top: -70px !important;
+          }
+          .form_title{
+            font-size:$foot_title_fnt;
+            margin-bottom: 15px;
+          }
+          #enquiryForm{
+            input{
+              width: 100%;
+              margin-bottom: 15px;
+              padding: 10px;
+            }
+            .enquiry_btn{
+              padding: 15px;
+              border-radius: 10px;
+              display: block;
+              width: 50%;
+              margin: auto;
+              font-size:$para_fnt;
+              background:$subs_btn_bg;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width:767px){
+    .graphic_title{
+      .title{
+        padding: 0px;
+        text-align: center;
+        line-height: 2.5rem;
+        font-size: 30px !important;
+      }
+      .course_detail_cnt{
+        flex-wrap: wrap;
+        .overview, .icon_svg{
+          width: 100% !important;
+        }
+        .overview{
+          .card_title{width: 98%; margin: auto; text-align: center; margin-bottom: 30px;}
+        }
+        .icon_svg{
+          position: relative !important;
+        }
+      }
+    }
+  }
+  
+  @media (max-width:992px){
+    .graphic_title{
+      .title{
+        padding: 0px;
+        text-align: center;
+        line-height: 2.5rem;
+      }
+      .course_detail_cnt{
+        flex-wrap: wrap;
+        .overview, .icon_svg{
+          width: 100% !important;
+        }
+        .overview{
+          .card_title{width: 98%; margin: auto; text-align: center; margin-bottom: 30px;}
+        }
+        .icon_svg{
+          position: relative !important;
+        }
+      }
+    }
+  }
+
+  .da_bg{
+    background: url('../images/Data_Analytics.jpg') no-repeat;
+  }
+  .ms_office_bg{
+    background: url('../images/ms_office.jpg') no-repeat;
+    // transform: scalex(1.2);
+  }
+  .java_bg{
+    background: url('../images/java.jpg') no-repeat;
+  }
+  .tally_bg{
+    background: url('../images/Tally.jpg') no-repeat;
+  }
+  .aws_bg{
+    background: url('../images/aws.jpg') no-repeat;
+  }
+  .python_bg{
+    background: url('../images/Python.jpg') no-repeat;
+  }
+  .ui_bg{
+    background:url('../images/ui_ux.jpg');
+  }
+  
+  .video_edit{
+    background:url('../images/video_editing.jpg');
+    // transform: scaleX(2);
+  }
+  
+  .cyber_security{
+    background:url('../images/cyber_security.jpg');
+    // transform: scaleX(1.5);
+  }
+  
+  .fulstack{
+    background:url('../images/Fullstack.jpg');
+    // transform: scaleX(1.5);
+  }
+
+  .bg1 span{
+    background: $mission_bg_clr;
+  }
+  .bg2 span{
+    background: $vision_bg_clr;
+  }
+  .bg3 span{
+    background: $mission_bg_clr2;
+  }
+  .bg4 span{
+    background: $subs_btn_bg;
+  }
+  .bg5 span{
+    background: $place_holder_clr;
+  }
+  .bg6 span{
+    background: $btn_hover_clr;
+  }
